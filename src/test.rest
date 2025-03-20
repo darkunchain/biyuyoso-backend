@@ -1,5 +1,24 @@
-@baseUrl = http://localhost:3000
+@baseUrl = http://localhost:2700
 @token = TOKEN_JWT_AQUI
+
+POST {{baseUrl}}/auth/register
+Content-Type: application/json
+
+{
+"email": "lfprieto@registraduria.gov.co",
+"password": "password123"
+}
+
+
 
 GET {{baseUrl}}/api/users
 Authorization: Bearer {{token}}
+
+
+
+# Otro comando
+
+
+GET {{baseUrl}}/auth/
+headers:
+Content-Type: application/json

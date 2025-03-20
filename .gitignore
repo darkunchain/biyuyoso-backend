@@ -37,6 +37,7 @@ yarn-error.log*
 # Ignorar archivos de coverage (si usas pruebas)
 coverage/
 .nyc_output/
+package-lock.json
 
 # Ignorar archivos de caché
 .cache/

@@ -1,0 +1,3 @@
+MONGO_URI=mongodb+srv://<usuario>:<contraseña>@cluster0.mongodb.net/biyuyo?retryWrites=true&w=majority
+MONGO_USER=biyuyo
+MONGO_PASS=vJzZ5Xt9SK*QEx*qCNE4
